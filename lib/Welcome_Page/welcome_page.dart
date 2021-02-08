@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:quizapp/Quiz_Page/quiz_page.dart';
 import 'package:quizapp/const.dart';
 
 class WelcomePage extends StatelessWidget {
@@ -37,7 +39,7 @@ class WelcomePage extends StatelessWidget {
                   ),
                   Spacer(),
                   InkWell(
-                    onTap: () {},
+                    onTap: () => Get.to(QuizPage()),
                     child: Container(
                       width: double.infinity,
                       alignment: Alignment.center,
