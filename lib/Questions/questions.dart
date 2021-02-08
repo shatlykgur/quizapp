@@ -9,12 +9,6 @@ class Question {
 
 const List question_data = [
   {
-    "id": 1,
-    "question": "Yesil Science kaç yılında kuruldu?",
-    "options": ['2013', '2014', '2015', '2016'],
-    "answer": 2,
-  },
-  {
     "id": 2,
     "question": "Real Madrid hangi Ligde yer alır?",
     "options": ['İngiltere', 'Fransa', 'İspanya', 'Almanya'],
@@ -31,5 +25,5 @@ const List question_data = [
     "question": "Şeker portakal kitabının yazarı kimdir?",
     "options": ['Dostoyevski', 'Celal Şengör', 'Frued', 'J.M.de Vas.'],
     "answer": 3,
-  }
+  },
 ];

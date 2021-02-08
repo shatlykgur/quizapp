@@ -15,7 +15,7 @@ class QuizPage extends StatelessWidget {
         actions: [
           FlatButton(
             onPressed: _controller.nextQuestion,
-            child: Text("Skip"),
+            child: Text(""),
           ),
         ],
       ),

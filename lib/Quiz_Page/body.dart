@@ -9,7 +9,6 @@ class Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // So that we have access our controller
     QuestionController _questionController = Get.put(QuestionController());
     return Stack(
       children: [
@@ -24,7 +23,7 @@ class Body extends StatelessWidget {
                     () => Text.rich(
                       TextSpan(
                         text:
-                            "Question ${_questionController.questionNumber.value}",
+                            "Questions ${_questionController.questionNumber.value}",
                         style: Theme.of(context)
                             .textTheme
                             .headline4

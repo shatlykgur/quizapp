@@ -90,6 +90,7 @@ class QuestionController extends GetxController
     });
   }
 
+  
   void nextQuestion() {
     if (_questionNumber.value != _question.length) {
       _isAnswered = false;
@@ -105,8 +106,6 @@ class QuestionController extends GetxController
     } else {
        Get.to(ResultPage());
     }
-
-   
   }
 
   void updateTheQnNum(int index) {

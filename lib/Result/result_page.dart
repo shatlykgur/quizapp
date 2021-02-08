@@ -15,18 +15,10 @@ class ResultPage extends StatelessWidget {
             children: [
               Spacer(flex: 3),
               Text(
-                "Result",
+                "Thanks!",
                 style: Theme.of(context)
                     .textTheme
                     .headline3
-                    .copyWith(color: kSecondaryColor),
-              ),
-              Spacer(),
-              Text(
-                "30/40",
-                style: Theme.of(context)
-                    .textTheme
-                    .headline4
                     .copyWith(color: kSecondaryColor),
               ),
               Spacer(flex: 3),

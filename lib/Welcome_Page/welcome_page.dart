@@ -13,29 +13,16 @@ class WelcomePage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Spacer(
                     flex: 2,
                   ),
                   Text(
-                    "Let's Play Quiz,",
+                    "Start Questionary",
                     style: Theme.of(context).textTheme.headline4.copyWith(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
                         ),
-                  ),
-                  Text("Enter your information below"),
-                  Spacer(),
-                  TextField(
-                    decoration: InputDecoration(
-                      filled: true,
-                      fillColor: Colors.orange,
-                      hintText: "Full Name",
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(12)),
-                      ),
-                    ),
                   ),
                   Spacer(),
                   InkWell(
@@ -43,15 +30,13 @@ class WelcomePage extends StatelessWidget {
                     child: Container(
                       width: double.infinity,
                       alignment: Alignment.center,
-                      padding: EdgeInsets.all(18.0),
+                      padding: EdgeInsets.all(28.0),
                       decoration: BoxDecoration(
                         gradient: toGradient,
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(12),
-                        ),
+                        shape: BoxShape.circle,
                       ),
                       child: Text(
-                        "Lets Start Quiz",
+                        "Click",
                       ),
                     ),
                   ),

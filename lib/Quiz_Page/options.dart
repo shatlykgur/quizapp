@@ -38,7 +38,7 @@ class Options extends StatelessWidget {
               padding: EdgeInsets.all(kDefaultPadding),
               decoration: BoxDecoration(
                 border: Border.all(color: getTheRightColor()),
-                borderRadius: BorderRadius.circular(15),
+                borderRadius: BorderRadius.circular(200),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -46,14 +46,6 @@ class Options extends StatelessWidget {
                   Text(
                     "${index + 1} $text",
                     style: TextStyle(color: getTheRightColor(), fontSize: 16),
-                  ),
-                  Container(
-                    height: 26,
-                    width: 26,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(50),
-                      border: Border.all(color: getTheRightColor()),
-                    ),
                   ),
                 ],
               ),
