@@ -18,7 +18,7 @@ class WelcomePage extends StatelessWidget {
                     flex: 2,
                   ),
                   Text(
-                    "Start Questionary",
+                    "Start Survey",
                     style: Theme.of(context).textTheme.headline4.copyWith(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,

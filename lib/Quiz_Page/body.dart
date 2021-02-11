@@ -17,29 +17,32 @@ class Body extends StatelessWidget {
             children: [
               SizedBox(height: kDefaultPadding),
               Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: kDefaultPadding),
-                  child: Obx(
-                    () => Text.rich(
-                      TextSpan(
-                        text:
-                            "Questions ${_questionController.questionNumber.value}",
-                        style: Theme.of(context)
-                            .textTheme
-                            .headline4
-                            .copyWith(color: kSecondaryColor),
-                        children: [
-                          TextSpan(
-                            text: "/${_questionController.questions.length}",
-                            style: Theme.of(context)
-                                .textTheme
-                                .headline5
-                                .copyWith(color: kSecondaryColor),
-                          ),
-                        ],
-                      ),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: kDefaultPadding),
+                    /*
+                child: Obx(
+                  () => Text.rich(
+                    TextSpan(
+                      text:
+                          "Questions ${_questionController.questionNumber.value}",
+                      style: Theme.of(context)
+                          .textTheme
+                          .headline4
+                          .copyWith(color: kSecondaryColor),
+                      children: [
+                        TextSpan(
+                          text: "/${_questionController.questions.length}",
+                          style: Theme.of(context)
+                              .textTheme
+                              .headline5
+                              .copyWith(color: kSecondaryColor),
+                        ),
+                      ],
                     ),
-                  )),
+                  ),
+                ),
+                */
+              ),
               Divider(thickness: 1.5),
               SizedBox(height: kDefaultPadding),
               Expanded(
