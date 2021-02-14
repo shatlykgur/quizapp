@@ -10,7 +10,7 @@ class Question {
 const List question_data = [
   {
     "id": 2,
-    "question": "Real Madrid hangi Ligde yer alır?",
+    "question": "Real Madrid hangi Ligde yer alır???",
     "options": ['İngiltere', 'Fransa', 'İspanya', 'Almanya'],
     "answer": 2,
   },
