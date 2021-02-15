@@ -18,7 +18,7 @@ class ResultPage extends StatelessWidget {
                 "Thanks!",
                 style: Theme.of(context)
                     .textTheme
-                    .headline3
+                    .headline4
                     .copyWith(color: kSecondaryColor),
               ),
               Spacer(flex: 3),
