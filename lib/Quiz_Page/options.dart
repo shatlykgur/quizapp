@@ -38,7 +38,7 @@ class Options extends StatelessWidget {
               padding: EdgeInsets.all(kDefaultPadding),
               decoration: BoxDecoration(
                 border: Border.all(color: getTheRightColor()),
-                borderRadius: BorderRadius.circular(200),
+                borderRadius: BorderRadius.circular(250),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
