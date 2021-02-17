@@ -11,7 +11,7 @@ class QuizPage extends StatelessWidget {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        elevation: 0.0,
+        //elevation: 0.0,
         actions: [
           FlatButton(
             onPressed: _controller.nextQuestion,
