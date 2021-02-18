@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quizapp/Controller/question_cont.dart';
 import 'package:quizapp/Quiz_Page/body.dart';
+import '../const.dart';
 
 class QuizPage extends StatelessWidget {
   QuestionController _controller = Get.put(QuestionController());
@@ -11,15 +12,29 @@ class QuizPage extends StatelessWidget {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        //elevation: 0.0,
-        actions: [
-          FlatButton(
-            onPressed: _controller.nextQuestion,
-            child: Text(""),
-          ),
-        ],
       ),
       body: Body(),
+      bottomNavigationBar: BottomAppBar(
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.white,
+            boxShadow: [BoxShadow(color: Colors.grey.withAlpha(200))],
+          ),
+          height: 150.0,
+          child: GestureDetector(
+            child: Container(
+              child: Text(
+                "Next",
+                style: TextStyle(
+                  fontSize: 20.0,
+                  color: Colors.black,
+                ),
+                textAlign: TextAlign.right,
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

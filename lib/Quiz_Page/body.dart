@@ -19,7 +19,7 @@ class Body extends StatelessWidget {
               Padding(
                 padding:
                     const EdgeInsets.symmetric(horizontal: kDefaultPadding),
-                    /*
+                /*
                 child: Obx(
                   () => Text.rich(
                     TextSpan(
@@ -55,15 +55,6 @@ class Body extends StatelessWidget {
                       question: _questionController.questions[index]),
                 ),
               ),
-              Expanded(
-                    child: Container(
-                      alignment: Alignment.bottomRight,
-                      child: RaisedButton(
-                        child: Text("Next"),
-                      ),
-                    ),
-                  ),
-                  
             ],
           ),
         ),

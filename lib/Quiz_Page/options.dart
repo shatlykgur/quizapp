@@ -25,7 +25,7 @@ class Options extends StatelessWidget {
                 return kGreenColor;
               } else if (index == qnController.selectedAns &&
                   qnController.selectedAns != qnController.correctAns) {
-                return kGreenColor;
+                return kRedColor;
               }
             }
             return kGrayColor;
