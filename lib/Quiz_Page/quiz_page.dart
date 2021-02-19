@@ -14,7 +14,9 @@ class QuizPage extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
       body: Body(),
-      bottomNavigationBar: BottomAppBar(
+
+
+    /*bottomNavigationBar: BottomAppBar(
         child: Container(
           decoration: BoxDecoration(
             color: Colors.white,
@@ -34,7 +36,7 @@ class QuizPage extends StatelessWidget {
             ),
           ),
         ),
-      ),
+      ), */
     );
   }
 }
