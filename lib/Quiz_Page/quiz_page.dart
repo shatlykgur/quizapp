@@ -14,8 +14,12 @@ class QuizPage extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
       body: Body(),
-
-
+    /*floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: Icon(Icons.add),
+      ),
+    */
     /*bottomNavigationBar: BottomAppBar(
         child: Container(
           decoration: BoxDecoration(
